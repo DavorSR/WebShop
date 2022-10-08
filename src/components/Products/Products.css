@@ -1,0 +1,63 @@
+.wraper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  column-gap: 10px;
+  row-gap: 110px;
+  margin: 20px 30px 150px 30px;
+
+}
+
+.filterBox {
+  width: 70%;
+  margin: 70px auto 20px auto;
+  border-bottom: 2px solid #787878;
+}
+
+
+.filterBox>h1 {
+  text-align: center;
+  color: #787878;
+  margin-bottom: 10px;
+  font-size: clamp(1rem, 2.5rem, 3.5rem);
+}
+
+.filterForm {
+  margin: 30px 30px;
+  display: flex;
+  justify-content: right;
+
+}
+
+.filter-select {
+  width: 200px;
+  padding: 5px 0;
+  border-radius: 0;
+  outline: none;
+
+}
+
+.filter-select>option {
+  font-size: 1rem;
+}
+
+.sort {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.sort>button {
+  padding: 10px 15px;
+  margin: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #787878;
+  border-radius: 5px;
+  font-size: clamp(0.8rem, 1rem, 2.5rem);
+}
+
+.sort>button:hover {
+  /* opacity: 0.6; */
+  background-color: #787878;
+  color: white;
+}

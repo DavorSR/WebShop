@@ -1,0 +1,24 @@
+#top-header {
+    padding: 10px 50px 10px 50px;
+    background-color: #1e1f29;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.icon{
+    color: #8ec63f;
+}
+
+
+a {
+    color: white;
+}
