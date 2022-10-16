@@ -1,4 +1,5 @@
 import "./Product.css";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import{faStar} from "@fortawesome/free-solid-svg-icons";
 import{faHeart} from "@fortawesome/free-solid-svg-icons";
@@ -23,7 +24,7 @@ function Product(props) {
         <div className="product-body">
           <p className="product-category">{props?.category}</p>
           <h3 className="product-name">
-            <a href="#">{props?.title}</a>
+            <NavLink to={`/product/${props.id}`}>{props?.title}</NavLink>
           </h3>
           <h4 className="product-price">
           ${props?.price} <del className="product-old-price"></del>

@@ -12,7 +12,7 @@ function Search(){
          <div className="search">
                     {/* <!-- LOGO --> */}
                         <div className="search-logo">
-                            <a href="#" className="logo">
+                            <a href="/" className="logo">
                                 <img src={logo} alt="" />
                             </a>
                         </div>
@@ -36,7 +36,7 @@ function Search(){
 
                         <div className="search-ctn">
                             <div>
-                                <a href="#">
+                                <a href="/">
                                 <FontAwesomeIcon className='icon' icon={faHeart} />
                                     <span>Your Wishlist</span>
                                     <div className="qty">2</div>
